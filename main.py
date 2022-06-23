@@ -38,3 +38,13 @@ p1.olaMundo() # vai imprimir "Olá Mundo do POO! sou o João"
 p2.olaMundo() # vai imprimir "Olá Mundo do POO! sou o Maria"
 # chame o método olaMundo da pessoa 3
 p3.olaMundo() # vai imprimir "Olá Mundo do POO! sou o Pedro"
+
+
+# 3 - impportar a classe numero e crie um alias para ela
+from numero import Numero as N
+# 3.1 crie uma instância da classe numero
+n1 = N(10, 20) # cria um objeto da classe numero com valores 10 e 20
+# chame o método imprime da instância criada
+n1.imprime() # vai imprimir "valor1 = 10, valor2 = 20"
+# fazer a soma dos dois números
+print(f"a soma = {n1.num1 + n1.num2}") # vai imprimir "a soma = 30"
