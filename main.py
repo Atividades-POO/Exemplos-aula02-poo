@@ -32,3 +32,9 @@ print(p2.nome) # vai imprimir "Maria"
 # imprima o nome da pessoa 3
 print(p3.nome) # vai imprimir "Pedro"
 
+# chame o método olaMundo da pessoa 1
+p1.olaMundo() # vai imprimir "Olá Mundo do POO! sou o João"
+# chame o método olaMundo da pessoa 2
+p2.olaMundo() # vai imprimir "Olá Mundo do POO! sou o Maria"
+# chame o método olaMundo da pessoa 3
+p3.olaMundo() # vai imprimir "Olá Mundo do POO! sou o Pedro"
