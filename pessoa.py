@@ -6,4 +6,4 @@ class Pessoa:
   nome = "padrão"
 
   def olaMundo(self):
-    print("Olá Mundo do POO!")
+    print(f"Olá Mundo do POO! sou o {self.nome}")
