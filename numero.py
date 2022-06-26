@@ -1,4 +1,11 @@
+# Autores:
+# Michel Silva
+# Emanuel Frank
+# Carlos Eduardo
+# data: 26/06/2022
 #
+#
+
 # 3 - crie uma classe numero que tenha um
 # método construtor (inicializador) que receba dois
 # números, crie uma instancia.
